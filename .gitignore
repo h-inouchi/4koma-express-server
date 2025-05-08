@@ -1,0 +1,21 @@
+# node_modules は絶対に除外（依存ファイル群）
+node_modules/
+
+# 投稿データを保存するフォルダ（例：data/）
+data/
+# または特定ファイルだけ除外
+# data/*.json
+
+# OSによるゴミファイル
+.DS_Store
+Thumbs.db
+
+# 環境変数ファイル（もし使っていれば）
+.env
+
+# npm-debugログなど一時ファイル
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# RenderなどのIDE用設定ファイル（任意）
